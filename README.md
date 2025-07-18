@@ -17,9 +17,20 @@ A responsive and dynamic web application that allows users to book restaurant ta
 - **Backend**: Java Servlet, JDBC  
 - **Database**: MySQL  
 - **Server**: Apache Tomcat 9
+- **Tools**: Visual Studio Code, MySQL WorkBench
 
-## ⚙️ How to Run Locally
+Create a table in MySQL WorkBench:
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/aayuyadav02/restaurant-booking.git
+CREATE TABLE bookings (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100),
+  booking_date DATE,
+  booking_time TIME,
+  guests INT
+);
+
+
+
+
+   
