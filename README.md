@@ -30,7 +30,20 @@ CREATE TABLE bookings (
   guests INT
 );
 
+Project Structure:
 
+RestaurantBooking/
+├── index.html
+├── booking.html
+├── BookingServlet.java
+├── success.html
+├── style.css
+└── WEB-INF/
+    └── web.xml
 
+    
+👤 Author
 
-   
+Aayush Yadav
+GitHub: aayuyadav02
+Email: aayush007ya@gmail.com
